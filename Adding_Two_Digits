@@ -2,11 +2,13 @@ two_digit_number = input("Type a two digit number: ")
 
 # print(type(two_digit_number)) this shows that input is a str
 
-first_digit = (two_digit_number[0]) 
-second_digit = (two_digit_number[1])
+first_digit = (two_digit_number[0])     # first_digit = int(two_digit_number[0])
+second_digit = (two_digit_number[1])    # second_digit = int(two_digit_number[1]
 
 # print(type(first_digit)) also shows us the class is str we need to convert to int class
-#result = first_digit + second_digit this needs to be converted into an int for the calculation to occur
-result = int(first_digit) + int(second_digit)
+
+#result = first_digit + second_digit this needs to be converted into an int for the calculation to occur or convert the two variables first_digit and second_digit as shown above
+
+result = int(first_digit) + int(second_digit)  # result = (first_digit) + (second_digit) this would be the other option if you converted the two variables 
 
 print(result)
